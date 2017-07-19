@@ -1,0 +1,49 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Casey Station",
+               "short_name" : "Casey Station",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Antarctica",
+               "short_name" : "AQ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Casey Station, Antarctica",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -66.28044609999999,
+                  "lng" : 110.5355931
+               },
+               "southwest" : {
+                  "lat" : -66.2833461,
+                  "lng" : 110.5187916
+               }
+            },
+            "location" : {
+               "lat" : -66.2821342,
+               "lng" : 110.5285467
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -66.28044609999999,
+                  "lng" : 110.5355931
+               },
+               "southwest" : {
+                  "lat" : -66.2833461,
+                  "lng" : 110.5187916
+               }
+            }
+         },
+         "place_id" : "ChIJZ1ORRs-WeK4Rs1Y8I_qBbrk",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

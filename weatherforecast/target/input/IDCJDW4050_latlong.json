@@ -1,0 +1,59 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Gold Coast",
+               "short_name" : "Gold Coast",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "Gold Coast City",
+               "short_name" : "Gold Coast",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Queensland",
+               "short_name" : "QLD",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Gold Coast QLD, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -27.7081262,
+                  "lng" : 153.5521711
+               },
+               "southwest" : {
+                  "lat" : -28.200317,
+                  "lng" : 153.1865517
+               }
+            },
+            "location" : {
+               "lat" : -28.016667,
+               "lng" : 153.4
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -27.7081998,
+                  "lng" : 153.5519035
+               },
+               "southwest" : {
+                  "lat" : -28.200317,
+                  "lng" : 153.1865517
+               }
+            }
+         },
+         "place_id" : "ChIJt2BdK0cakWsRcK_e81qjAgM",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

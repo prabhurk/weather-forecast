@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Townsville City",
+               "short_name" : "Townsville City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Townsville City",
+               "short_name" : "Townsville",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Queensland",
+               "short_name" : "QLD",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "4810",
+               "short_name" : "4810",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Townsville City QLD 4810, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -19.2491137,
+                  "lng" : 146.8297167
+               },
+               "southwest" : {
+                  "lat" : -19.2702326,
+                  "lng" : 146.8059596
+               }
+            },
+            "location" : {
+               "lat" : -19.2589635,
+               "lng" : 146.8169483
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.2495629,
+                  "lng" : 146.8293292
+               },
+               "southwest" : {
+                  "lat" : -19.2701467,
+                  "lng" : 146.8059596
+               }
+            }
+         },
+         "place_id" : "ChIJ59Fz1dv41WsRsP4gf_HuAAU",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
