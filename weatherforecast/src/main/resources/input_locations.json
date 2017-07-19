@@ -1,0 +1,44 @@
+{
+   "locations" : [
+            {
+               "name" : "Sydney",
+               "iatacode" : "IDCJDW2124"
+            },
+            {
+               "name" : "Canberra",
+               "iatacode" : "IDCJDW2801"
+            },
+            {
+               "name" : "Melbourne",
+               "iatacode" : "IDCJDW3033"
+            },
+            {
+               "name" : "Brisbane",
+               "iatacode" : "IDCJDW4019"
+            },
+            {
+               "name" : "Gold Coast",
+               "iatacode" : "IDCJDW4050"
+            },
+            {
+               "name" : "Adelaide",
+               "iatacode" : "IDCJDW5002"
+            },
+            {
+               "name" : "Perth",
+               "iatacode" : "IDCJDW6111"
+            },
+            {
+               "name" : "Townsville",
+               "iatacode" : "IDCJDW4128"
+            },
+            {
+               "name" : "Darwin",
+               "iatacode" : "IDCJDW8014"
+            },
+            {
+               "name" : "Casey Antarctica",
+               "iatacode" : "IDCJDW9203"
+            }
+         ]
+}

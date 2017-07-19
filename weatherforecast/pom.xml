@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.predict.simple</groupId>
+	<artifactId>weatherforecast</artifactId>
+	<version>0.0.1</version>
+	<name>Weather Forecast</name>
+	<description>A prediction program of the weather data</description>
+	<!-- Project will be packed as jar -->
+	<packaging>jar</packaging>
+
+
+	<properties>
+		<!-- <project.version>0.0.1</project.version> -->
+		<timeseries-forecast.version>1.1.1</timeseries-forecast.version>
+		<commons-lang3.version>3.6</commons-lang3.version>
+		<commons-io.version>2.5</commons-io.version>
+		<commons-csv.version>1.4</commons-csv.version>
+		<gson.version>2.8.1</gson.version>
+		<joda-time.version>2.9.9</joda-time.version>
+		<junit.version>4.12</junit.version>
+		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
+		<jdk.version>1.7</jdk.version>
+	</properties>
+
+	<!-- Dependency libraries -->
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.workday/timeseries-forecast -->
+		<dependency>
+			<groupId>com.workday</groupId>
+			<artifactId>timeseries-forecast</artifactId>
+			<version>${timeseries-forecast.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<!-- For Utils functions such as StringUtils and ExceptionUtils -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>${commons-csv.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${gson.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${joda-time.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<!-- Build configuration -->
+	<build>
+		<!-- This is the final jar/executable name -->
+		<finalName>weatherdataforecast</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<archive>
+						<manifest>
+							<!-- This is the class name which will be invoked while jar run -->
+							<mainClass>com.predict.simple.weather.main.Main</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<!-- This is for packing dependencies/necessary libraries together 
+							to form a complete executable -->
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<!-- The below files will be copied to target path from directory -->
+				<directory>src/main/resources</directory>
+				<targetPath>${project.build.directory}</targetPath>
+				<includes>
+					<include>input_locations.json</include>
+					<include>input/*</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+</project>

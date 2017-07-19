@@ -1,0 +1,39 @@
+"Daily Weather Observations for Perth, Western Australia for September 2016"
+"Prepared at 13:08 GMT on Monday 10 July 2017   IDCJDW6111.201609"
+"Copyright 2003 Commonwealth Bureau of Meteorology"
+"A combination of observations from Mount Lawley and Perth Airport."
+"Significant variations can be experienced across the Perth metropolitan area on individual days. On average the inner city area is warmer overnight than the current observation sites. The current official Perth observation site is Perth Metro, however in the past Perth Regional Office and Perth Gardens have been official Perth observation sites.Some cloud observations are from automated equipment; these are somewhat different to those made by a human observer and may not appear every day."
+"Temperature, humidity, wind, pressure and rainfall observations are from Perth Metro {station 009225}"
+"Cloud, evaporation and sunshine observations are from Perth Airport {station 009021}"
+
+,"Date","Minimum temperature (°C)","Maximum temperature (°C)","Rainfall (mm)","Evaporation (mm)","Sunshine (hours)","Direction of maximum wind gust ","Speed of maximum wind gust (km/h)","Time of maximum wind gust","9am Temperature (°C)","9am relative humidity (%)","9am cloud amount (oktas)","9am wind direction","9am wind speed (km/h)","9am MSL pressure (hPa)","3pm Temperature (°C)","3pm relative humidity (%)","3pm cloud amount (oktas)","3pm wind direction","3pm wind speed (km/h)","3pm MSL pressure (hPa)"
+,2016-09-1,5.3,17.2,1.6,2.8,10.4,WSW,28,14:07,12.2,75,0,SSE,6,1026.5,15.7,54,1,SW,13,1023.7
+,2016-09-2,5.3,17.2,0,4.2,3.9,WSW,26,13:43,12.3,71,7,SSE,2,1023.4,16.3,56,6,SSW,13,1020.7
+,2016-09-3,6.8,19.5,0,1.2,10.3,N,28,15:11,12.2,79,1,SSE,7,1025.5,18.6,43,1,ENE,9,1021.8
+,2016-09-4,9.0,22.2,0,2.8,7.3,SW,30,16:24,13.6,67,7,ESE,2,1021.3,20.4,44,2,SW,17,1016.8
+,2016-09-5,9.5,19.9,0,2.8,9.8,SW,52,10:54,13.5,78,1,SW,9,1018.1,19.1,59,1,SW,15,1015.3
+,2016-09-6,7.2,19.6,0,2.6,8.6,NNW,35,17:52,14.6,80,1,NE,9,1013.4,18.6,58,6,WNW,13,1009.2
+,2016-09-7,12.3,17.5,6.2,3.0,7.9,W,57,02:34,15.2,62,4,WSW,20,1012.2,16.1,54,6,WNW,19,1013.9
+,2016-09-8,11.6,17.9,5.4,3.8,8.6,SW,43,04:34,14.7,58,7,SSW,11,1024.2,17.4,49,2,SW,9,1023.5
+,2016-09-9,7.0,19.2,0,4.0,4.0,WSW,24,13:52,12.6,74,8,SW,7,1025.1,17.5,62,7,W,11,1021.7
+,2016-09-10,12.3,20.5,0,1.4,4.0,SW,30,14:26,16.0,82,2,NNE,9,1021.3,17.7,64,7,SW,15,1018.8
+,2016-09-11,11.9,16.5,0,4.2,8.7,SE,43,21:58,13.0,64,6,SE,15,1024.5,15.5,57,7,SE,13,1023.0
+,2016-09-12,9.0,17.8,0,2.0,9.3,SE,41,02:19,11.9,57,4,E,19,1028.3,17.0,41,5,SE,17,1024.9
+,2016-09-13,8.5,18.0,0,4.0,10.3,E,39,09:31,12.4,50,3,E,15,1029.0,17.5,32,1,ESE,13,1025.3
+,2016-09-14,6.9,20.0,0,5.0,11.0,SW,30,14:59,13.0,57,0,E,13,1027.5,17.5,44,2,SW,20,1022.8
+,2016-09-15,4.3,18.6,0,3.2,7.2,WSW,41,19:06,14.1,59,1,ENE,6,1017.4,17.5,56,7,W,19,1012.8
+,2016-09-16,7.1,17.3,5.8,3.0,10.2,SSE,33,00:10,11.5,60,1,SSE,20,1021.4,16.6,45,4,SSW,9,1020.8
+,2016-09-17,5.0,18.2,0,3.6,9.4,ENE,24,08:57,12.5,56,2,NE,17,1026.6,17.1,41,6,NNW,6,1023.7
+,2016-09-18,3.7,19.1,0,3.0,2.7,SW,54,21:32,13.5,62,5,NNE,11,1017.9,14.9,68,8,W,19,1013.6
+,2016-09-19,5.9,15.8,13.8,3.8,9.3,SSW,61,00:33,11.6,65,7,S,13,1017.3,14.3,63,6,SW,15,1017.5
+,2016-09-20,6.5,19.6,0,2.6,10.4,NW,22,13:31,14.9,58,5,NE,7,1022.1,19.0,44,1,WNW,9,1019.4
+,2016-09-21,5.2,23.1,0,2.2,10.9,WSW,22,16:07,14.8,66,0,NNE,7,1019.4,22.4,34,1,NW,9,1015.4
+,2016-09-22,7.2,18.8,0,4.0,3.6,SW,35,14:08,15.2,74,7,NNE,7,1011.5,15.2,74,7,SW,17,1011.5
+,2016-09-23,10.2,15.6,10.2,1.4,7.8,WSW,48,09:08,13.6,61,7,SW,15,1015.5,13.1,55,6,SSW,20,1015.5
+,2016-09-24,6.3,17.5,1.2,3.0,7.1,NW,30,14:44,10.5,71,7,NE,6,1018.3,16.5,49,5,WNW,15,1014.4
+,2016-09-25,8.9,16.7,15.6,2.4,8.0,SW,35,16:16,12.2,82,6,SSE,15,1018.0,16.1,49,2,SW,17,1017.7
+,2016-09-26,4.5,18.3,0,3.0,4.0,W,31,13:51,14.4,67,5,NNE,11,1021.1,17.0,62,8,W,15,1018.7
+,2016-09-27,12.0,19.7,3.6,2.8,5.9,SW,70,15:47,18.1,62,4,WNW,15,1013.4,15.1,68,7,WSW,20,1011.0
+,2016-09-28,6.4,15.8,5.4,3.0,11.1,SSE,31,09:06,11.9,55,1,S,15,1024.1,14.9,49,3,SW,17,1022.4
+,2016-09-29,4.4,18.7,0,5.0,11.3,NE,28,08:06,12.2,54,0,ENE,15,1021.8,18.1,46,0,SW,11,1015.5
+,2016-09-30,6.5,19.1,0,3.2,5.2,NNW,39,10:45,16.6,63,6,W,7,1008.7,17.2,63,3,W,19,1007.1

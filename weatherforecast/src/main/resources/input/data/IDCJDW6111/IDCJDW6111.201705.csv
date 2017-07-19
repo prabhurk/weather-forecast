@@ -1,0 +1,40 @@
+"Daily Weather Observations for Perth, Western Australia for May 2017"
+"Prepared at 16:08 GMT on Sunday 16 July 2017   IDCJDW6111.201705"
+"Copyright 2003 Commonwealth Bureau of Meteorology"
+"A combination of observations from Mount Lawley and Perth Airport."
+"Significant variations can be experienced across the Perth metropolitan area on individual days. On average the inner city area is warmer overnight than the current observation sites. The current official Perth observation site is Perth Metro, however in the past Perth Regional Office and Perth Gardens have been official Perth observation sites.Some cloud observations are from automated equipment; these are somewhat different to those made by a human observer and may not appear every day."
+"Temperature, humidity, wind, pressure and rainfall observations are from Perth Metro {station 009225}"
+"Cloud, evaporation and sunshine observations are from Perth Airport {station 009021}"
+
+,"Date","Minimum temperature (°C)","Maximum temperature (°C)","Rainfall (mm)","Evaporation (mm)","Sunshine (hours)","Direction of maximum wind gust ","Speed of maximum wind gust (km/h)","Time of maximum wind gust","9am Temperature (°C)","9am relative humidity (%)","9am cloud amount (oktas)","9am wind direction","9am wind speed (km/h)","9am MSL pressure (hPa)","3pm Temperature (°C)","3pm relative humidity (%)","3pm cloud amount (oktas)","3pm wind direction","3pm wind speed (km/h)","3pm MSL pressure (hPa)"
+,2017-05-1,12.1,24.1,0,4.2,9.5,E,24,05:15,16.7,62,4,E,9,1026.3,23.3,40,1,SSE,9,1023.3
+,2017-05-2,10.4,26.4,0,5.4,8.0,E,48,05:45,16.8,57,3,E,7,1025.7,25.8,33,5,ENE,7,1021.5
+,2017-05-3,13.0,29.2,0,4.0,9.0,N,33,10:03,20.4,47,6,NE,13,1020.4,26.1,37,7,WNW,13,1017.5
+,2017-05-4,14.2,24.2,0,3.6,5.8,W,24,12:21,20.1,78,7,ENE,6,1018.3,22.4,65,7,W,11,1017.1
+,2017-05-5,16.0,24.3,7.8,2.2,8.6,SSW,22,10:45,19.3,88,4, ,Calm,1022.1,23.2,55,2,SSW,9,1021.7
+,2017-05-6,12.2,26.3,0.2,3.4,9.5,NE,20,11:24,17.5,75,6,ESE,7,1027.4,25.5,42,5,E,6,1024.3
+,2017-05-7,11.7,30.8,0,4.0,9.7,NNE,31,10:58,20.7,55,0,NE,13,1023.8,29.9,28,0,W,9,1020.0
+,2017-05-8,13.3,26.4,0,4.0,7.8,N,24,12:22,18.1,56,7,NNE,11,1020.6,24.1,67,7,WNW,13,1017.0
+,2017-05-9,17.4,20.7,2.2,2.0,2.0,SSE,28,10:47,18.0,87,7,SE,6,1019.8,20.0,55,7,SW,13,1019.5
+,2017-05-10,8.6,21.6,0,6.8,8.8,SSE,28,10:14,15.8,59,3,SSE,4,1023.2,20.5,39,5,S,13,1020.6
+,2017-05-11,10.0,22.1,0,3.2,7.6,SW,28,16:51,15.6,71,2,SSE,2,1023.1,21.4,45,4,SW,11,1019.6
+,2017-05-12,8.6,22.5,0,3.2,9.1,ENE,24,09:18,13.1,79,4,E,9,1022.0,22.1,37,3,NNW,4,1018.4
+,2017-05-13,8.0,22.9,0,2.8,7.2,W,22,14:22,14.3,67,0,SW,6,1020.3,21.2,39,7,W,9,1018.6
+,2017-05-14,11.7,25.0,0,4.2,6.2,NW,44,15:22,18.4,49,7,NNE,11,1013.1,22.1,62,7,NNW,17,1009.1
+,2017-05-15,15.7,20.7,3.0,3.2,4.2,WNW,54,10:23,19.8,61,4,WNW,20,1008.4,18.9,62,4,WSW,15,1008.2
+,2017-05-16,14.5,21.5,7.6,3.6,6.1,SW,35,01:06,16.0,80,7,S,9,1015.4,21.2,52,4,S,7,1015.4
+,2017-05-17,10.1,20.4,0,2.2,9.5,NNE,30,12:42,15.6,79,1,ENE,6,1021.6,20.0,58,1,ENE,11,1019.5
+,2017-05-18,9.4,25.9,0,2.8,9.1,N,35,11:07,16.9,59,3,NNE,13,1019.0,24.0,37,1,NW,13,1016.7
+,2017-05-19,15.4,22.9,1.0,3.6,4.1,SW,37,19:56,17.2,97,8,NNE,7,1014.2,21.4,63,5,WNW,15,1011.4
+,2017-05-20,10.9,16.9,8.2,4.0,1.4,NE,24,10:32,13.0,86,8,SSW,2,1015.0,15.2,82,7,NE,7,1011.6
+,2017-05-21,12.2,18.2,17.2,1.4,4.3,WSW,50,07:38,15.1,85,7,WSW,17,1006.3,14.6,74,5,SW,19,1009.5
+,2017-05-22,8.5,19.9,16.0,2.2,6.0,W,22,14:29,11.5,94,7,N,6,1019.9,18.3,61,6,SW,6,1019.6
+,2017-05-23,11.5,17.9,5.2,2.2,0.2,N,46,14:41,14.1,99,8,NNE,7,1023.1,17.5,87,7,NW,6,1021.1
+,2017-05-24,12.5,21.4,1.0,1.2,8.0,WNW,22,13:04,15.6,90,1,NNE,7,1022.5,20.9,55,3,W,9,1020.3
+,2017-05-25,7.4,22.4,0,2.0,9.4,NNE,20,12:33,13.4,94,1,W,6,1022.1,21.6,46,1,WNW,9,1018.9
+,2017-05-26,10.0,19.4,1.4,2.8,6.7,SSE,30,13:54,16.2,90,0,SSE,9,1021.1,18.7,60,3,SSW,11,1020.1
+,2017-05-27,7.6,18.8,0,2.2,9.0,SE,43,15:19,12.6,72,1,SE,9,1026.4,17.9,50,2,SSE,13,1024.3
+,2017-05-28,4.9,19.4,0,2.2,9.2,ENE,50,11:00,12.5,75,0,E,7,1027.7,18.8,48,2,E,7,1024.2
+,2017-05-29,5.8,21.6,0,2.4,8.6,ENE,20,07:25,12.5,69,1,E,9,1026.2,20.7,42,0,SSE,9,1022.5
+,2017-05-30,9.3,24.9,0,3.6,8.2,NNE,28,10:21,16.5,51,2,NE,13,1022.8,22.5,46,7,WSW,9,1020.4
+,2017-05-31,7.7,25.8,0,3.0,8.0,NNE,20,11:02,12.2,96,7, ,Calm,1022.0,24.6,34,1,W,11,1019.7

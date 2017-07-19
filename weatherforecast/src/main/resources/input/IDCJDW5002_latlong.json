@@ -1,0 +1,54 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Adelaide",
+               "short_name" : "Adelaide",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "South Australia",
+               "short_name" : "SA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Adelaide SA, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -34.652564,
+                  "lng" : 138.7801898
+               },
+               "southwest" : {
+                  "lat" : -35.3489699,
+                  "lng" : 138.4421299
+               }
+            },
+            "location" : {
+               "lat" : -34.9284989,
+               "lng" : 138.6007456
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -34.652564,
+                  "lng" : 138.7801898
+               },
+               "southwest" : {
+                  "lat" : -35.3489699,
+                  "lng" : 138.4421843
+               }
+            }
+         },
+         "place_id" : "ChIJP7Mmxcc1t2oRQMaOYlQ2AwQ",
+         "types" : [ "colloquial_area", "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
