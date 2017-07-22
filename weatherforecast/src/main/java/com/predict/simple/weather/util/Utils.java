@@ -26,8 +26,8 @@ import org.joda.time.format.ISODateTimeFormat;
 public class Utils {
 
 	/**
-	 * This method formats the given float number to one decimal precision and returns as String
-	 * @param float number, number to be formatted.
+	 * This method formats the given Double number to given format and returns as String
+	 * @param Double number, number to be formatted.
 	 * @return String numberString,  formatted number in String
 	 */
 	public static String formatDecimal(Double number, String format) {
@@ -50,9 +50,9 @@ public class Utils {
 	}
 	
 	/**
-	 * This method converts the given Date object to string based on the given date format
-	 * @param Date date, date to be formatted.
-	 * @param String dateFormatString, required format of date.
+	 * This method converts the given DateTime object to string based on the given date format
+	 * @param DateTime dateTime, DateTime to be formatted.
+	 * @param String dateFormatString, required format of dateTime.
 	 * @return String dateString,  formatted date in String
 	 */
 	public static String dateTimeToString(DateTime dateTime, String dateFormatString) {
@@ -62,6 +62,11 @@ public class Utils {
 		return dateString;
 	}
 	
+	/**
+	 * This method converts the given DateTime to string based on the UTC format
+	 * @param DateTime dateTime, DateTime to be converted.
+	 * @return String dateTimeUTCString,  converted date in String
+	 */
 	public static String dateTimeToUTC(DateTime dateTime) {
 		String dateTimeUTCString = null;
 		DateTimeFormatter formatter = ISODateTimeFormat.dateTimeNoMillis();  
@@ -82,22 +87,19 @@ public class Utils {
 	}
 	
 	/**
-	 * This method converts the given Date object to string based on the given date format
-	 * @param Date date, date to be formatted.
-	 * @param String dateFormatString, required format of date.
-	 * @return String dateString,  formatted date in String
+	 * This method converts the given List of Double object to primitive Array type
+	 * @param List<Double> inputList, list to be converted.
+	 * @return double[] outputArray,  converted data
 	 */
 	public static double[] linkedListToPrimitiveArray(List<Double> inputList) {
 		double[] outputArray = ArrayUtils.toPrimitive(inputList.toArray(new Double[inputList.size()]));
 		return outputArray;
 	}
 	
-	
 	/**
-	 * This method converts the given Date object to string based on the given date format
-	 * @param Date date, date to be formatted.
-	 * @param String dateFormatString, required format of date.
-	 * @return String dateString,  formatted date in String
+	 * This method checks if the given String object can be parsed to Double and if eligible for parse, parse and give output, else defauls to output 0.0 
+	 * @param String input, input data to be checked for/parsed.
+	 * @return Double output,  output result
 	 */
 	public static Double parseToDouble(String input) {
 		Double output = 0.0;

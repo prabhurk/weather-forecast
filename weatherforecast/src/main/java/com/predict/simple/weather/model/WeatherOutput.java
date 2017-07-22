@@ -3,9 +3,7 @@ package com.predict.simple.weather.model;
 import org.joda.time.DateTime;
 
 /**
- * The LocationPositionBean is model class representing the Location and Position to where weather corresponds to.
- * Location is an optional label describing one or more positions.
- * Position is a comma-separated triple containing latitude, longitude, and elevation in metres above sea level
+ * The WeatherOutput is model class represents the output forecast result
  *
  * @author Prabhu R K
  * @version 0.0.1
@@ -17,6 +15,7 @@ public class WeatherOutput {
 	private Location location;
 	private WeatherVariables weatherVariables;
 	private DateTime dateTime;
+	
 	/**
 	 * @return the location
 	 */

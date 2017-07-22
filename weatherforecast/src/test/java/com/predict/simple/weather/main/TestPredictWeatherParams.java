@@ -12,12 +12,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author user
+ * @author Prabhu R K
  *
  */
 public class TestPredictWeatherParams {
 	
-	PredictFunctions predictFunctions;
+	private PredictFunctions predictFunctions;
 
 	@Before
 	public void initObject(){

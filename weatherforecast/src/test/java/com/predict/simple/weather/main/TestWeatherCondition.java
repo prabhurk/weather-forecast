@@ -17,13 +17,13 @@ import org.junit.experimental.theories.Theory;
 import org.junit.runner.RunWith;
 
 /**
- * @author user
+ * @author Prabhu R K
  *
  */
 @RunWith(Theories.class)
 public class TestWeatherCondition {
 	
-	PredictFunctions predictFunctions;
+	private PredictFunctions predictFunctions;
 
 	@Before
 	public void initObject(){

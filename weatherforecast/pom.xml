@@ -9,7 +9,6 @@
 	<!-- Project will be packed as jar -->
 	<packaging>jar</packaging>
 
-
 	<properties>
 		<!-- <project.version>0.0.1</project.version> -->
 		<timeseries-forecast.version>1.1.1</timeseries-forecast.version>
@@ -20,7 +19,11 @@
 		<joda-time.version>2.9.9</joda-time.version>
 		<junit.version>4.12</junit.version>
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
+		<maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
 		<jdk.version>1.7</jdk.version>
+		<project.root>${project.build.directory}</project.root>
+		<project.mainclass>com.predict.simple.weather.main.Main</project.mainclass>
+		<project.testsuite>com.predict.simple.weather.main.AllTests</project.testsuite>
 	</properties>
 
 	<!-- Dependency libraries -->
@@ -99,7 +102,7 @@
 					<archive>
 						<manifest>
 							<!-- This is the class name which will be invoked while jar run -->
-							<mainClass>com.predict.simple.weather.main.Main</mainClass>
+							<mainClass>${project.mainclass}</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -109,12 +112,22 @@
 					</descriptorRefs>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<includes>
+						<include>${project.testsuite}</include>
+					</includes>
+				</configuration>
+			</plugin>
 		</plugins>
 		<resources>
+			<!-- The below files will be copied to target path from directory -->
 			<resource>
-				<!-- The below files will be copied to target path from directory -->
 				<directory>src/main/resources</directory>
-				<targetPath>${project.build.directory}</targetPath>
+				<targetPath>${project.root}</targetPath>
 				<includes>
 					<include>input_locations.json</include>
 					<include>input/*</include>
@@ -122,5 +135,4 @@
 			</resource>
 		</resources>
 	</build>
-
 </project>

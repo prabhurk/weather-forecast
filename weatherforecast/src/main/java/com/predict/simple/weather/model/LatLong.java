@@ -1,9 +1,7 @@
 package com.predict.simple.weather.model;
 
 /**
- * The LocationPositionBean is model class representing the Location and Position to where weather corresponds to.
- * Location is an optional label describing one or more positions.
- * Position is a comma-separated triple containing latitude, longitude, and elevation in metres above sea level
+ * The LatLong is model class representing the latitude and longitude corresponds to a location
  *
  * @author Prabhu R K
  * @version 0.0.1
@@ -14,6 +12,11 @@ public class LatLong {
 	
 	private Double latitude;
 	private Double longitude;
+	
+	@Override
+	public String toString() {
+		return this.latitude + "," + this.longitude;
+	}
 	
 	/**
 	 * @return the latitude

@@ -1,9 +1,8 @@
 package com.predict.simple.weather.model;
 
 /**
- * The LocationPositionBean is model class representing the Location and Position to where weather corresponds to.
- * Location is an optional label describing one or more positions.
- * Position is a comma-separated triple containing latitude, longitude, and elevation in metres above sea level
+ * The WeatherVariables is model class representing the array of weather parameters
+ * The model is used to hold past weather data parameters and forecast results
  *
  * @author Prabhu R K
  * @version 0.0.1
@@ -15,6 +14,7 @@ public class WeatherVariables {
 	private double[] temperature;
 	private double[] pressure;
 	private double[] relativeHumidity;
+	
 	/**
 	 * @return the temperature
 	 */

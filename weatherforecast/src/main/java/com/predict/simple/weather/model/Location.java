@@ -1,9 +1,7 @@
 package com.predict.simple.weather.model;
 
 /**
- * The LocationPositionBean is model class representing the Location and Position to where weather corresponds to.
- * Location is an optional label describing one or more positions.
- * Position is a comma-separated triple containing latitude, longitude, and elevation in metres above sea level
+ * The Location is model class representing the paramters of a location
  *
  * @author Prabhu R K
  * @version 0.0.1
@@ -13,9 +11,13 @@ package com.predict.simple.weather.model;
 public class Location {
 	
 	private String name;
+//	example of iataCode = "IDCJDW2124" for Sydney
+//	iataCode is used for getting past weather data from BoM
 	private String iataCode;
 	private LatLong latLong;
+//	elevation of a location in metres above sea level
 	private Double elevation;
+//	example of timeZoneId = "Australia/Sydney"
 	private String timeZoneId;
 	
 	/**
