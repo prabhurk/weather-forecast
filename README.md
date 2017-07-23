@@ -42,6 +42,8 @@ The following required outputs (*there will be other stuffs as well, along with 
 ><b>mvn clean install -Dmaven.test.skip=true</b>
 ></pre>
 
+>_The [weatherdataforecast-jar-with-dependencies.jar](weatherforecast/target/weatherdataforecast-jar-with-dependencies.jar) is already created with latest classes and you should be able to use it right away with necessary inputs, without going for any more buid steps, unless if you have any changes_
+
 ## Configuration / Input
 
 ### input_locations.json
@@ -109,6 +111,14 @@ where
 >Presently, the program tries to replicate [Bureau of Meteorology, Commonwealth of Australia](http://www.bom.gov.au/climate/dwo/) by predicting weather at 9am and 3pm of local time of location for a week. Hence the forecast size given in [_FORECAST_SIZE_](weatherforecast/src/main/java/com/predict/simple/weather/util/Constants.java) is 7 X 2 = 14
 
 >_After execution of the program, latest individual locaion-wise weather forecast results will be generated as text file in the directory **`output\tmp`**. The name of the file will be the code of the location. The directory is cleaned upon each forecast execution_
+
+### Logging
+
+The logging configuration is based on [_log4j.properties_](weatherforecast/target/log4j.properties) and it has to be in the same location as the executable, [_weatherdataforecast-jar-with-dependencies.jar_](weatherforecast/target/weatherdataforecast-jar-with-dependencies.jar)
+
+>Presently, the output log file **weather-forecast-log.log** will be generated in **output\log**, replacing the previously generated, upon every program execution
+
+>_If [log4j.properties](weatherforecast/target/log4j.properties) is not in the same location as the executable, [weatherdataforecast-jar-with-dependencies.jar](weatherforecast/target/weatherdataforecast-jar-with-dependencies.jar), an exception will be thrown in the console, which will not affect the program execution, except logging features_
 
 ## How the program works
 
