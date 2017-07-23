@@ -1,3 +1,7 @@
+/**
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
+ */
 package com.predict.simple.weather.main;
 
 import org.junit.runner.RunWith;

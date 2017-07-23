@@ -1,5 +1,6 @@
 /**
- * 
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
 package com.predict.simple.weather.main;
 
@@ -26,10 +27,6 @@ import com.predict.simple.weather.model.WeatherOutput;
 import com.predict.simple.weather.model.WeatherVariables;
 import com.predict.simple.weather.util.Constants;
 
-/**
- * @author Prabhu R K
- *
- */
 public class TestFileOperations {
 	
 	private FileOperations fileOperations;
@@ -63,6 +60,18 @@ public class TestFileOperations {
 	public void testUrlToFile() throws IOException {
 		File tempFile = testFolder.newFile("IDCJDW2124.201707.csv");
 		assertTrue(FileOperations.urlToFile("http://www.bom.gov.au/climate/dwo/201707/text/IDCJDW2124.201707.csv", tempFile));
+	}
+	
+	/**
+	 * Test method for {@link com.predict.simple.weather.main.FileOperations#clearDirectory(java.lang.String)}.
+	 * @throws IOException 
+	 */
+	@Test
+	public void testClearDirectory() throws IOException {
+		testFolder.newFile("test.txt");
+		String folderName = testFolder.getRoot().getPath();
+		assertTrue(FileOperations.clearDirectory(folderName));
+		assertEquals(0, new File(folderName).listFiles().length);
 	}
 
 	/**

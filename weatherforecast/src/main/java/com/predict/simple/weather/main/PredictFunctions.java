@@ -1,17 +1,17 @@
-package com.predict.simple.weather.main;
-
-import com.predict.simple.weather.model.WeatherVariables;
-import com.workday.insights.timeseries.arima.Arima;
-import com.workday.insights.timeseries.arima.struct.ArimaParams;
-import com.workday.insights.timeseries.arima.struct.ForecastResult;
-
 /**
  * The PredictFunctions class contains weather prediction methods to output forecast results based on input data
  *
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.main;
+
+import com.predict.simple.weather.model.WeatherVariables;
+import com.workday.insights.timeseries.arima.Arima;
+import com.workday.insights.timeseries.arima.struct.ArimaParams;
+import com.workday.insights.timeseries.arima.struct.ForecastResult;
 
 public class PredictFunctions {
 
@@ -34,12 +34,13 @@ public class PredictFunctions {
 	 * This method generates forecast values based input values
 	 * The prediction model is based on ARIMA
 	 * Refer: https://github.com/Workday/timeseries-forecast
+	 * ARIMA model parameters are passed to obtain forecast result
+	 * The structure contains forecasted values
 	 * @param double[] inputData, input data
 	 * @param int forecastSize, the expected number of forecast output
 	 * @return double[] forecastData, forecasted output
 	 */		
 	public double[] predictWeatherParams(double[] inputData, int forecastSize) {
-//		ARIMA model parameters.
 		int p = 3;
 		int d = 0;
 		int q = 3;
@@ -48,10 +49,7 @@ public class PredictFunctions {
 		int Q = 0;
 		int m = 0;
 		ArimaParams arimaParams = new ArimaParams(p, d, q, P, D, Q, m);
-
-//		Obtain forecast result. The structure contains forecasted values and performance metric etc.
 		ForecastResult forecastResult = Arima.forecast_arima(inputData, forecastSize, arimaParams);
-//		Read forecast values
 		double[] forecastData = forecastResult.getForecast();
 		arimaParams = null;
 		return forecastData;
@@ -75,4 +73,5 @@ public class PredictFunctions {
 			weatherCondition = "Sunny";
 		return weatherCondition;
     }
+
 }

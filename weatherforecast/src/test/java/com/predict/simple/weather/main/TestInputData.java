@@ -1,5 +1,6 @@
 /**
- * 
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
 package com.predict.simple.weather.main;
 
@@ -20,10 +21,6 @@ import org.junit.rules.TemporaryFolder;
 import com.predict.simple.weather.model.LatLong;
 import com.predict.simple.weather.util.Constants;
 
-/**
- * @author Prabhu R K
- *
- */
 public class TestInputData {
 	
 	private InputData inputData;

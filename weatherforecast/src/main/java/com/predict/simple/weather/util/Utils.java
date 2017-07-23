@@ -1,3 +1,11 @@
+/**
+ * The Utils Class has generic or commonly used functions
+ *
+ * @author Prabhu R K
+ * @version 0.0.1
+ * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
+ */
 package com.predict.simple.weather.util;
 
 import java.text.DateFormat;
@@ -14,14 +22,6 @@ import org.joda.time.DateTimeZone;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.ISODateTimeFormat;
-
-/**
- * The Utils Class has generic or commonly used functions
- *
- * @author Prabhu R K
- * @version 0.0.1
- * @since July 18, 2017
- */
 
 public class Utils {
 

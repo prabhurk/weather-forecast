@@ -1,5 +1,6 @@
 /**
- * 
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
 package com.predict.simple.weather.util;
 
@@ -18,10 +19,6 @@ import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.junit.Test;
 
-/**
- * @author Prabhu R K
- *
- */
 public class TestUtils {
 
 	/**

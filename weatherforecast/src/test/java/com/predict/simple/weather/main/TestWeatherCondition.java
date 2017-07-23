@@ -1,5 +1,6 @@
 /**
- * 
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
 package com.predict.simple.weather.main;
 
@@ -16,10 +17,6 @@ import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.runner.RunWith;
 
-/**
- * @author Prabhu R K
- *
- */
 @RunWith(Theories.class)
 public class TestWeatherCondition {
 	

@@ -1,12 +1,12 @@
-package com.predict.simple.weather.model;
-
 /**
  * The Location is model class representing the paramters of a location
  *
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.model;
 
 public class Location {
 	

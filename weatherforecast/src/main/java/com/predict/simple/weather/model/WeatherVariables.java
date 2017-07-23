@@ -1,5 +1,3 @@
-package com.predict.simple.weather.model;
-
 /**
  * The WeatherVariables is model class representing the array of weather parameters
  * The model is used to hold past weather data parameters and forecast results
@@ -7,7 +5,9 @@ package com.predict.simple.weather.model;
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.model;
 
 public class WeatherVariables {
 	

@@ -1,14 +1,14 @@
-package com.predict.simple.weather.model;
-
-import org.joda.time.DateTime;
-
 /**
  * The WeatherOutput is model class represents the output forecast result
  *
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.model;
+
+import org.joda.time.DateTime;
 
 public class WeatherOutput {
 	

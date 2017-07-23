@@ -1,5 +1,6 @@
 /**
- * 
+ * @author Prabhu R K
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
 package com.predict.simple.weather.main;
 
@@ -11,10 +12,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * @author Prabhu R K
- *
- */
 public class TestPredictWeatherParams {
 	
 	private PredictFunctions predictFunctions;

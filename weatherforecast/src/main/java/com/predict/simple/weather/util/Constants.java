@@ -1,12 +1,12 @@
-package com.predict.simple.weather.util;
-
 /**
  * The Constants Class has unchanged constants used in various places in the program.
  *
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.util;
 
 public class Constants {
 
@@ -20,7 +20,6 @@ public class Constants {
 	public static final String API_BASE_GOOGLE_GEOCODE = "http://maps.googleapis.com/maps/api/geocode/json";
 	public static final String API_BASE_GOOGLE_ELEVATION = "http://maps.googleapis.com/maps/api/elevation/json";
 	public static final String API_BASE_GOOGLE_TIMEZONE = "https://maps.googleapis.com/maps/api/timezone/json";
-	public static final String API_BASE_GEONAME_TIMEZONE = "http://api.geonames.org/timezoneJSON";
 	public static final String API_BASE_AUBOM_CLIMATE = "http://www.bom.gov.au/climate/dwo/";
 	
 //	By default BoM supports 14 months of past weather data
@@ -31,6 +30,9 @@ public class Constants {
 	
 //	Input JSON containing location name and code
 	public static final String INPUT_LOCJSON = "input_locations.json";
+	
+//	Input configuration for logging purposes
+	public static final String INPUT_LOGCONFIG = "log4j.properties";
 	
 //	Forecast result file extension
 	public static final String OUTPUT_FILEEXTENSION = ".txt";

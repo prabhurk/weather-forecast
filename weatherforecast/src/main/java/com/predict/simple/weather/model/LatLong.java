@@ -1,12 +1,12 @@
-package com.predict.simple.weather.model;
-
 /**
  * The LatLong is model class representing the latitude and longitude corresponds to a location
  *
  * @author Prabhu R K
  * @version 0.0.1
  * @since July 18, 2017
+ * Copyright (c) 2017, Prabhu R K. All rights reserved.
  */
+package com.predict.simple.weather.model;
 
 public class LatLong {
 	
